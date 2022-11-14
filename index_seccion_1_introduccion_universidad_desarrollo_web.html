@@ -1,13 +1,72 @@
 <!--
     Programador: Luis Octavio Aguilar Serna
     Curso: Desarrollo Web Frontend UDEMY
-    Version (commit): VERSION_04_Extensiones_de_Visual_Studio_Code_para_HTML
+    Version (commit): VERSION_05_Mi_Primer_Página_HTML
     Branch: Master
 
     SECCION: 1 Introduccion Universidad Desarrollo Web
-    SUBSECCION: 4. Extensiones de Visual Studio Code para HTML
+    SUBSECCION: 5. Mi Primer Página HTML
 -->
 
 <!--
-    En esta seccion se descargan habilitan extensiones para HTML en VSC. Se instalaron previamente
+    Detalles sobre creacion de archivo para HTML:
+
+    .- La "ruta" para crear y guardar es la siguiente: 
+    ->"File"->"Save As (Ctrl+Shift)"->"Guardar lo mas cercano posible al disco C"-> "Creacion de carpeta arbitraria" -> 
+    -> "nombrar el archivo con el nombre de "index" con extension html (o algun nombre relacionado con esta palabra para 
+    entender que es el archivo principal o indice)"->"Guardar en dicha carpeta"->"Para guardar de forma automatica en VSC 
+    se habilita la opcion DE "Auto Save" alojada en "File".
+
+    Tags y etiquetas:
+    El lenguaje HTML es basicamente un lenguaje que se compone de elementos denominados tags o etiquetas, las cuales se definen 
+    como "< >" en algunos casos, o como "<></>" en otros; dentro de los picoparentesis "<>" y entre "<>" y "</>" se definira 
+    cierta sintaxis, en el ultimo caso, las definimos como etiqueta de apertura y apertura de cierre, respectivamente . Cabe 
+    decir que algunas "etiquetas" no podrian denominarse como tal ya que su definicion se interpreta como una declaracion.
+    Otro aspecto importante es que lo que se defina dentro de "<" y ">", a parte del nombre de la etiqueta, se denominan
+    atributos.
+
+    Comencemos a desarrollar algo de codigo. Definamos una estructura de codigo basica para HTML...
 -->
+
+<!--La siguiente etiqueta/declaracion nos ayuda a defininir el tipo de archivo que estamos creando, asi como su version de
+HTML O XML. Esta etiqueta no tiene etiqueta de cierre. Las etiquetas que contengan elemento de cierre generaran tal elemento
+de forma automatica gracias a las extensiones habilitadas. Solo se señalara cuando las etiquetas no tengan elemento de cierre, 
+se sobreentiende que cuando no se señale esto tienen etiqueta de cierre -->
+<!DOCTYPE html>
+
+<!--La siguiente etiqueta, es la etiqueta que engloba la mayor parte del codigo, es decir, la etiqueta principal de nuestro
+codigo-->
+<html>
+
+<!--La siguiente etiqueta es la seccion en la cual se definen los metadatos necesartios para que funcione la pagina.
+Estos metadatos son solo visibles para los navegadores-->
+    <head>
+
+<!--La siguiente etiqueta es la que nos ayuda a definir el titulo de la pagina web. Este titulo suele mostrarse en la pestaña
+del navegador-->
+        <title>CURSO HTML</title>      
+        
+    </head>
+
+<!--La siguiente etiqueta es el cuerpo del codigo, a diferencia de los metadatos alojados en head, bodyb es la parte que el 
+    cliente puede ver-->
+    <body>
+
+<!--La siguiente etiqueta es un encabezado, define texto en forma de titulo; se vera despues que conforme se van definiendo mas
+headings, estos se tornan cada vez mas pequeños cuando desplegamos la pagina (gradualmente) -->       
+    <h1>Curso Universidad HTML</h1>
+
+<!--La siguiente etiqueta es un parrafo --> 
+    <p>Esta es mi primer pagina web</p>
+
+    </body>
+
+</html>
+
+<!--Antes de desplegar la pagina we, es necesario abrir el folder del proyecto, lo cual ya se ha hecho: ->"open folder"
+->seleccionamos la carpeta donde deseamos alojar el proyecto. Para desplegar la pagina seleccionamos el boton "Go Live"
+encontrado en la barra azul de la parte inferior derecha de VSC-->
+
+
+
+
