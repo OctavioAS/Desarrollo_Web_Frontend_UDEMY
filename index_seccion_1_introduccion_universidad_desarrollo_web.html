@@ -1,71 +1,33 @@
 <!--
     Programador: Luis Octavio Aguilar Serna
     Curso: Desarrollo Web Frontend UDEMY
-    Version (commit): VERSION_05_Mi_Primer_Página_HTML
+    Version (commit): VERSION_06_Formas_de_Ejecutar_la_Pagina_Web
     Branch: Master
 
     SECCION: 1 Introduccion Universidad Desarrollo Web
-    SUBSECCION: 5. Mi Primer Página HTML
+    SUBSECCION: 5. Formas de Ejecutar la Página Web
 -->
 
 <!--
-    Detalles sobre creacion de archivo para HTML:
+    Anteriormente para desplegar la pagina seleccionamos el boton "Go Live" encontrado en la barra azul (o morada) de la parte inferior derecha de VSC. Para
+detener la pagina web hacemos click derecho del mouse y seleccionamos "Stop Live Server". Esta seria una forma de desplegar una pagina web.
 
-    .- La "ruta" para crear y guardar es la siguiente: 
-    ->"File"->"Save As (Ctrl+Shift)"->"Guardar lo mas cercano posible al disco C"-> "Creacion de carpeta arbitraria" -> 
-    -> "nombrar el archivo con el nombre de "index" con extension html (o algun nombre relacionado con esta palabra para 
-    entender que es el archivo principal o indice)"->"Guardar en dicha carpeta"->"Para guardar de forma automatica en VSC 
-    se habilita la opcion DE "Auto Save" alojada en "File".
+La otra forma seria con click derecho del mouse y seleccionar "Open with Live Server". En dado caso que no tengamos un servidor podremos abrir nuestra pagina
+ingresando a la carpeta donde tenemos alojado nuestro archivo index, al abrir ese archivo ejecutamos lo que hemos programado en VSC, pero esto tiene una
+diferencia con las formas anteriores de ejecutacion ya que no se nos proporciona una URL (que siginifica "Uniform Resource Locator") de algun servidor, sino
+que se nos proporciona la direccion local del archivo en nuestra computadora. Se recomienda no hacer uso de esta forma de ejecutar, sin embargo se menciona
+para cualquier necesidad practica.
 
-    Tags y etiquetas:
-    El lenguaje HTML es basicamente un lenguaje que se compone de elementos denominados tags o etiquetas, las cuales se definen 
-    como "< >" en algunos casos, o como "<></>" en otros; dentro de los picoparentesis "<>" y entre "<>" y "</>" se definira 
-    cierta sintaxis, en el ultimo caso, las definimos como etiqueta de apertura y apertura de cierre, respectivamente . Cabe 
-    decir que algunas "etiquetas" no podrian denominarse como tal ya que su definicion se interpreta como una declaracion.
-    Otro aspecto importante es que lo que se defina dentro de "<" y ">", a parte del nombre de la etiqueta, se denominan
-    atributos.
+Por otra parte, si no queremos hacer salir de VSC tenemos la opcion de desplegar un servidor interno de VSC. Se hace de la siguiente forma: damos click en "View"
+que se encuentra en el menu superior, despues click en la opcion "Command Palete..." (o en su caso el atajo "Ctrl+Shift+P"). Nos va a salir una pequeña ventana
+donde escribiremos "Live Server Preview" y seleccionamos la opcion que nos salga que es "Show Live Server Preview". Entonces se desplegará el servidordel lado
+derecho de nuestra ventana de VSC. De nuevo, no se recomienda esta forma de ejecutar el codigo HTML, sin embargo se hace mencion para uso practico
 
-    Comencemos a desarrollar algo de codigo. Definamos una estructura de codigo basica para HTML...
+NOTA: PARA PODER EJECUTAR EL CODIGO CON "Live Server Preview" hay que instalar esta extension ya que se trata de una extension.
 -->
 
-<!--La siguiente etiqueta/declaracion nos ayuda a defininir el tipo de archivo que estamos creando, asi como su version de
-HTML O XML. Esta etiqueta no tiene etiqueta de cierre. Las etiquetas que contengan elemento de cierre generaran tal elemento
-de forma automatica gracias a las extensiones habilitadas. Solo se señalara cuando las etiquetas no tengan elemento de cierre, 
-se sobreentiende que cuando no se señale esto tienen etiqueta de cierre -->
-<!DOCTYPE html>
 
-<!--La siguiente etiqueta, es la etiqueta que engloba la mayor parte del codigo, es decir, la etiqueta principal de nuestro
-codigo-->
-<html>
 
-<!--La siguiente etiqueta es la seccion en la cual se definen los metadatos necesartios para que funcione la pagina.
-Estos metadatos son solo visibles para los navegadores-->
-    <head>
-
-<!--La siguiente etiqueta es la que nos ayuda a definir el titulo de la pagina web. Este titulo suele mostrarse en la pestaña
-del navegador-->
-        <title>CURSO HTML</title>      
-        
-    </head>
-
-<!--La siguiente etiqueta es el cuerpo del codigo, a diferencia de los metadatos alojados en head, bodyb es la parte que el 
-    cliente puede ver-->
-    <body>
-
-<!--La siguiente etiqueta es un encabezado, define texto en forma de titulo; se vera despues que conforme se van definiendo mas
-headings, estos se tornan cada vez mas pequeños cuando desplegamos la pagina (gradualmente) -->       
-    <h1>Curso Universidad HTML</h1>
-
-<!--La siguiente etiqueta es un parrafo --> 
-    <p>Esta es mi primer pagina web</p>
-
-    </body>
-
-</html>
-
-<!--Antes de desplegar la pagina we, es necesario abrir el folder del proyecto, lo cual ya se ha hecho: ->"open folder"
-->seleccionamos la carpeta donde deseamos alojar el proyecto. Para desplegar la pagina seleccionamos el boton "Go Live"
-encontrado en la barra azul de la parte inferior derecha de VSC-->
 
 
 
