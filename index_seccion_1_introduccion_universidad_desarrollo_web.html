@@ -1,35 +1,34 @@
 <!--
     Programador: Luis Octavio Aguilar Serna
     Curso: Desarrollo Web Frontend UDEMY
-    Version (commit): VERSION_06_Formas_de_Ejecutar_la_Pagina_Web_Error_Corregido
-    Branch: Master
+    Version (commit): VERSION_07_Meta_UTF-8_En_HTML
 
     SECCION: 1 Introduccion Universidad Desarrollo Web
-    SUBSECCION: 6. Formas de Ejecutar la Página Web
+    SUBSECCION: 7 Meta UTF-8 en HTML
 -->
 
 <!--
-    Anteriormente para desplegar la pagina seleccionamos el boton "Go Live" encontrado en la barra azul (o morada) de la parte inferior derecha de VSC. Para
-detener la pagina web hacemos click derecho del mouse y seleccionamos "Stop Live Server". Esta seria una forma de desplegar una pagina web.
-
-La otra forma seria con click derecho del mouse y seleccionar "Open with Live Server". En dado caso que no tengamos un servidor podremos abrir nuestra pagina
-ingresando a la carpeta donde tenemos alojado nuestro archivo index, al abrir ese archivo ejecutamos lo que hemos programado en VSC, pero esto tiene una
-diferencia con las formas anteriores de ejecutacion ya que no se nos proporciona una URL (que siginifica "Uniform Resource Locator") de algun servidor, sino
-que se nos proporciona la direccion local del archivo en nuestra computadora. Se recomienda no hacer uso de esta forma de ejecutar, sin embargo se menciona
-para cualquier necesidad practica.
-
-Por otra parte, si no queremos hacer salir de VSC tenemos la opcion de desplegar un servidor interno de VSC. Se hace de la siguiente forma: damos click en "View"
-que se encuentra en el menu superior, despues click en la opcion "Command Palete..." (o en su caso el atajo "Ctrl+Shift+P"). Nos va a salir una pequeña ventana
-donde escribiremos "Live Server Preview" y seleccionamos la opcion que nos salga que es "Show Live Server Preview". Entonces se desplegará el servidordel lado
-derecho de nuestra ventana de VSC. De nuevo, no se recomienda esta forma de ejecutar el codigo HTML, sin embargo se hace mencion para uso practico
-
-NOTA: PARA PODER EJECUTAR EL CODIGO CON "Live Server Preview" hay que instalar esta extension ya que se trata de una extension.
-
-NOTA SOBRE "REPETICION" DE ESTE COMMIT: Modifique la linea 8, era la subseccion 6 y no la 5 como se indica en el commit anterior: 
-"VERSION_06_Formas_de_Ejecutar_la_Pagina_Web".
-Intente modificar el commit directamente pero VSC me mostraba que habia conflictos "merge" con el repositorio remoto debido a las 
-actualizaciones del commit
+En este caso veremos la definicion de la etiqueta <meta charset="UTF-8";
 -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>HTML UNIVERSITY</title>
+    <!--El siguiente elemento simplemente especifica la codificación de caracteres del documento — es decir, el conjunto de 
+        caracteres que el documento puede usar. utf-8 es un conjunto de caracteres universal que incluye casi todos los 
+        caracteres de casi cualquier idioma humano, incluye acentos. Esta etiqueta puede ser escrita sin necesidad del cerrarse
+        con "</>"". Obsérvese quela etiqueta contiene atributo: meta es el nombre de la etiqueta y charset=)"UTF-8" es 
+        el atributo-->
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <h1>HTML UNIVERSITY COURSE</h1>
+        <p>My first HTML'S page</p>
+    </body>
+</html>
 
 
 
