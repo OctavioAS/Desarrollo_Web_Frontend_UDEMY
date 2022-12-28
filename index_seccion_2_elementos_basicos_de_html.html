@@ -1,11 +1,54 @@
 <!--
     Programador: Luis Octavio Aguilar Serna
     Curso: Desarrollo Web Frontend UDEMY
-    Version (commit): ORIGINAL_FILE_00/INICIO-SECCION-2
+    Version (commit): VERSION_09_Titulos_en_HTML/SECC2
     Branch: Master
 
-    NOTA: Apartir de este commit empieza la "Sección 2: Elementos Básicos de HTML". Se siguen las mismas indicaciones que 
-    archivo index anterior de la Sección 1.
-    APARTIR DE ESTE COMMIT, EL NOMBRE DE LOS COMMITS ESTARÁN TERMINANDO CON UNA CLAVE REFERENCIANDO A LA SECCIÓN DE LA QUE SE
-    TRATE, ES DECIR, LA PRIMERA SECCIÓN SERÁ LA UNICA SECCIÓN CUYOS COMMITS NO HACEN REFERENCIA A SU SECCIÓN.
+    SECCION: 2 Elementos Básicos de HTML
+    SUBSECCION: 9 Títulos en HTML
 -->
+
+<!--    
+    En esta sección se mostrarán las características de los títulos que se pueden implementar en una página html
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ELEMENTOS BÁSICOS HTML/ HTML BASIC ELEMENTS</title>
+
+</head>
+
+<body>
+<!---Las siguientes etiquetas denotan los títulos que se pueden implementar en HTML, como se podrá observar al momento de ejecutar
+el código en la página web, los títutlos se muestran de forma jerárquica, es decir, la primera etiqueta (en este caso <h1>)
+se mostrará con el tamaño más grande, mientras que la última etiqueta (en este caso <h7>) será la de menor tamaño en pantalla.
+Hay tres cosas importantes a mencionar: una, si se repite 2 veces, por ejemplo (el caso de la etiqueta <h4> que se repitió a
+propósito), una etiqueta, ambas tendrán el mismo tamaño, lo cual es ideal para textos que requieran el mismo tamaño de títulos
+ya que son de importancia similar; la otra cosa es que HTML solo respeta la jerarquía de tamaños hasta la etiqueta <h7>, ya
+que si ponemos uno etiqueta <h8>, esta tendría un tamaño que no coincide con ninguno de los tamaños de los títulos comprendidos
+de la etiqueta <h1> a la <h7>, y si ponemos otra etiqueta <h9> tendrá el mismo tamaño que la <h8>, esto hasta n etiquetas de 
+título después de <h8>. La última cosa es que para las etiquetas de títulos de la <h1> a la <h7> se genera un salto de línea 
+automático, mientras que las etiquetas de título de la <h8> en adelante no generan un salto de línea automático -->
+    <h1>Título h1</h1>
+    <h2>Título h2</h2>
+    <h3>Título h3</h3>
+    <h4>Título h4</h4>
+    <h4>Título h4</h4>
+    <h5>Título h5</h5>
+    <h6>Título h6</h6>
+    <h7>Título h7</h7>
+
+<!--Etiquetas que se ponen de ejemplo para ver que la jerarquía de tamaños solo se respeta hasta <h7>:-->
+    <h8>Título h8</h8>
+    <h9>Título h9</h9>
+</body>
+
+</html>
