@@ -1,0 +1,69 @@
+<!--
+    Programador: Luis Octavio Aguilar Serna
+    Curso: Desarrollo Web Frontend UDEMY
+    Version (commit): VERSION_11_Links_en_HTML/SECC2
+    Branch: Master
+
+    SECCION: 2 Elementos Básicos de HTML
+    SUBSECCION: 11 Links en HTML
+-->
+
+<!--    
+    En esta sección se mostrará el manejo de links en HTML
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ELEMENTOS BÁSICOS HTML/ HTML BASIC ELEMENTS</title>
+
+</head>
+
+<body>
+    <h1>HTML UNIVERSITY UDEMY</h1>
+    <h2>LINKS EN HTML</h2>
+
+<!--Con la siguiente etiqueta <a></a>, cuya "a" se refiere a "anchor" que significa "ancla", podemos crear un enlace a otras 
+páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.--->
+
+    <p>Enlace externo:</p>
+    <a href="https://github.com/OctavioAS">MI PÁGINA DE GITHUB OCTAVIO/ OCTAVIO'S GITHUB</a>
+
+<!--Su atributo "href=" nos permite escribir la dirección URL de la página a la cual queremos redireccionarnos. Luego, el texto
+que se encuentra entre la etiqueta de apertura y de cierre nos sirve para mostrar en la página web la referencia al enlace, es
+decir, que no se estará mostrando como tal el enlace "https://github.com/OctavioAS", sino el texto: MI PÁGINA DE GITHUB OCTAVIO/ 
+OCTAVIO'S GITHUB, el cual, al ser seleccionado con el cursor, nos redirecciona al enlace en sí--->
+
+<!--Otra acción que podemos desarrollar con relación a los links, es que podremos enlazar páginas desarrolladas dentro de la 
+página principal, por ejemplo, creamos otro archivo html dentro de la misma carpeta en la que se encuentra este archivo html 
+(aunque puede ser cualquier ruta que creamos conveniente para nuestro proyecto). Editaremos este nuevo archivo para poder 
+visualizar la diferencia entre páginas cuando se redireccione el link. Luego, para poder ejecutar esta acción escribimos el 
+siguiente código:--->
+
+    <br>
+    <p>Enlace local:</p>
+    <a href="página_ejemplo_VERSION_11_Links-en_HTML.html">PÁGINA DE EJEMPLO PARA LINKS HTML</a>
+    
+<!--Como podemos apreciar, sigue la misma etiqueta y parámetro que el link anterior, además que colocamos un salto de línea para
+visualizar de forma correcta y clara la diferencia entre links--->
+
+<!--Una observación importante es que los enlaces a los cuales no redireccionamos se abren sobre la misma ventana desde la cual
+estamos ejecutando la operación. Para abrir el enlace en otra venta aplicamos el siguiente criterio:--->
+
+    <br>
+    <p>Enlace externo para abrir en otra ventana:</p>
+    <a href="https://github.com/OctavioAS" target="_blank">MI PÁGINA DE GITHUB OCTAVIO/ OCTAVIO'S GITHUB</a>
+
+<!--El criterio aplicado fue un atributo sobre la etiqueta de apertura <a> que es target="_blank--->
+
+
+</body>
+
+</html>
